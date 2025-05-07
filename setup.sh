@@ -43,7 +43,7 @@ defaults write com.apple.dock show-recents -bool false && killall Dock
 
 
 # MacOS general configs
-defaults write com.apple.menuextra.battery ShowPercent -string "YES" && killall SystemUIServer
+defaults write com.apple.controlcenter "BatteryShowPercentage" -bool true && killall ControlCenter
 defaults write com.apple.finder ShowPathbar -bool true && killall Finder
 
 # Config Git
