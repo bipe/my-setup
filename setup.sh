@@ -52,3 +52,4 @@ git config --global user.email “itsmemarconi@gmail.com”
 
 # Envs
 cp ./envs/ghostty $HOME/Library/Application\ Support/com.mitchellh.ghostty/config
+cp ./envs/.zshrc $HOME/
