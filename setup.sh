@@ -30,6 +30,8 @@ brew install python3
 
 brew install go
 
+brew install --cask linearmouse
+
 
 # Dock
 # Add new apps to dock
@@ -58,3 +60,5 @@ git config --global user.name "bipe"
 cp ./envs/ghostty $HOME/Library/Application\ Support/com.mitchellh.ghostty/config
 cp ./envs/.zshrc $HOME/
 source $HOME/.zshrc
+
+cp ./envs/linearmouse.json $HOME/.config/linearmouse/
