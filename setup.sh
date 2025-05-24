@@ -52,8 +52,8 @@ defaults write com.apple.controlcenter "BatteryShowPercentage" -bool true && kil
 defaults write com.apple.finder ShowPathbar -bool true && killall Finder
 
 # Config Git
-git config --global user.email “itsmemarconi@gmail.com”       
-git config --global user.name "bipe"         
+git config --global user.email itsmemarconi@gmail.com
+git config --global user.name bipe
 
 
 # Envs
