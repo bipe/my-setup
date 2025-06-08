@@ -19,6 +19,8 @@ brew install --cask steam
 
 brew install --cask obsidian
 
+brew install gnupg
+
 brew install kubectl
 
 # docker
@@ -62,3 +64,10 @@ cp ./envs/.zshrc $HOME/
 source $HOME/.zshrc
 
 cp ./envs/linearmouse.json $HOME/.config/linearmouse/
+
+cp ./envs/gpg-agent.conf $HOME/.gnupg/
+gpgconf --kill gpg-agent
+
+## Paste scripts
+cp ./scripts/open.sh $HOME/
+chmod +x $HOME/open.sh
